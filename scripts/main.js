@@ -91,6 +91,8 @@ const cartTotal = () => {
 
   if (free) {
     document.querySelector('#includes-free').innerHTML = 'INCLUDES FREE ITEMS'
+  } else{ 
+    document.querySelector('#includes-free').innerHTML = ''
   }
 }
 
